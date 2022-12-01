@@ -1,5 +1,5 @@
 # harrypotter
-<h1 align="center">  Apresentação de alguns filmes de Harry Potter </h1>
+<h1 align="center">  Apresentação dos filmes de Harry Potter </h1>
 <p align="center">
   <img src="https://i.imgur.com/oJPc3Xj.jpg" width=500px">
 </p>
