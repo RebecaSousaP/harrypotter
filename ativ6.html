@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <title>exercício 6 - Rebeca Sousa</title>
+        <style>
+            *{
+                background-color: rgb(196, 245, 226);
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #image{
+                align-items: center;
+                padding: 6%;
+                font-size: 20px;
+                width: 25%;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var contagem = ['harry1.jpg','harry2.jpg','harry3.jpg','harry4.jpg','harry5.jpg','harry6.jpg'];
+            var indice = contagem.length - 1;
+                    function regressiva(){
+                        if(indice < 0) {
+                            return false;
+                        }
+                        document.getElementById("image").src = contagem[indice]
+                        contagem[indice];
+
+                        if(indice == 0){
+                            document.getElementById("image").style = "width: 30%;";
+                        }                       
+                        indice = indice - 1;
+                    }
+            setInterval(regressiva, 1100);
+        </script>
+        <img id="image" src="harry6.jpg" alt="" >
+    </body>
+</html>
